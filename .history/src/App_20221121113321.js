@@ -6,18 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>Exercício React-Redux (simples)</h1>
-
-      <div className='linha'>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-      </div>
-      <div className='linha'>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-      </div>
-
+      <Card/>
     </div>
   );
 }
