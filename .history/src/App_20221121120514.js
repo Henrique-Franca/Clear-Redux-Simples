@@ -1,6 +1,6 @@
+import logo from './logo.svg';
 import './App.css';
 import Card from './components/Card';
-import React from 'react';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <h1>Exercício React-Redux (simples)</h1>
 
       <div className='linha'>
-        <Card title="Card 1" red>
+        <Card title="Card 1" red='red'>
           X
         </Card>
       </div>

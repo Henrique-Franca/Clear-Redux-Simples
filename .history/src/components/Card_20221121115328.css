@@ -3,6 +3,7 @@
     display: flex;
     flex-direction:column;
     margin: 5px;
+    background-color: red;
 }   
 .Card .Header{
     display: flex;
@@ -14,6 +15,7 @@
 }   
 .Card .Content{
     padding: 20px;
+    
 }   
-.Card .Red .Header{color:#fff;background-color: #c62828;}
-.Card .Red .Content{background-color: #f44336;}
+.car.Red.Header{color: #fff;background-color: #c62828;}
+.car.Red.Content{background-color: #f44336;}

@@ -1,6 +1,6 @@
+import logo from './logo.svg';
 import './App.css';
 import Card from './components/Card';
-import React from 'react';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         </Card>
       </div>
       <div className='linha'>
-        <Card title="Card 2" red>
+        <Card title="Card 2">
           y
         </Card>
       </div>
