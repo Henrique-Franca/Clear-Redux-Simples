@@ -19,7 +19,8 @@ const reducers = combineReducers({
     },
 
     nomes: function(state, action){
-        
+        console.log('Reducer Nomes...')
+        console.log(state, '', action)
         return[
             'Ana',
             'Bia',

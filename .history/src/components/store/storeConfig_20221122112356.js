@@ -2,6 +2,8 @@ import {createStore,combineReducers} from 'redux'
 
 const reducers = combineReducers({
     numeros: function(state, action){
+        console.log('Reducer Nomes...')
+        console.log(state, '', action)
         
         switch(action.typoe){
             case 'NUM_MIN_ALTERADO':

@@ -11,15 +11,16 @@ const reducers = combineReducers({
                 }
             default:
                 return {
-                    min: 10,
-                    max: 31
+                    min:7,
+                    max:31
                 }
         }
 
     },
 
     nomes: function(state, action){
-        
+        console.log('Reducer Nomes...')
+        console.log(state, '', action)
         return[
             'Ana',
             'Bia',

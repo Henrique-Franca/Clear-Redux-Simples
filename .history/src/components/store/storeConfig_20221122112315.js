@@ -10,16 +10,14 @@ const reducers = combineReducers({
                     min: action.payload
                 }
             default:
-                return {
-                    min: 10,
-                    max: 31
-                }
+                return state
         }
 
     },
 
     nomes: function(state, action){
-        
+        console.log('Reducer Nomes...')
+        console.log(state, '', action)
         return[
             'Ana',
             'Bia',

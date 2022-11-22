@@ -8,6 +8,7 @@ import {alterarNumeroMinimo} from './store/actions/numeros'
 function Intervalo(props){
 
     const {min, max} = props
+    props.alterarMinimo(10000)
 
     return (
         <Card title='Intervalo de Números' red>
@@ -27,16 +28,15 @@ function Intervalo(props){
 
 }
 
-function mapStateToProps(state) {
-    return {
-      min: state.numeros.min,
-      max: state.numeros.max,
-    };
-  }
+function mapStateToProps(state){
+    return{
+        numeros: state.numeros
+    }
+}
 
 function mapActionCreatorsToProps(dispatch){
     return{
-        alterarMinimo(novoNumero) {
+        alterarMinimo(alterarNumeroMinimo) {
             // action creator -> action
             const action = alterarNumeroMinimo(novoNumero);
             dispatch(action);
@@ -44,7 +44,4 @@ function mapActionCreatorsToProps(dispatch){
     }
 }
 
-export default connect(
-    mapStateToProps, 
-    mapActionCreatorsToProps
-    )(Intervalo)
+export default connect(mapStateToProps, mapActionCreatorsToProps)(Intervalo)
