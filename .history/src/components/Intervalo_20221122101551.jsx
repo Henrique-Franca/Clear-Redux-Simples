@@ -6,19 +6,17 @@ import Card from './Card'
 
 function Intervalo(props){
 
-    const {min, max} = props
-
 
     return (
         <Card title='Intervalo de Números' red>
             <div className="Intervalo">
                 <span>
                     <strong>Mínimo:</strong>
-                    <input type="number" value={min} readOnly/>
+                    <input type="number" value={0} readOnly/>
                 </span>
                 <span>
                     <strong>Máximo:</strong>
-                    <input type="number" value={max} readOnly/>
+                    <input type="number" value={10} readOnly/>
                 </span>
             </div>
             

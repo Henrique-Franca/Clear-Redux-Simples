@@ -13,7 +13,7 @@ function Sorteio(props){
             <div >
                 <span>
                     <span>Resultado:</span>
-                    <strong>{aleatorio}</strong>
+                    <strong>{}</strong>
                 </span>
 
             </div>
