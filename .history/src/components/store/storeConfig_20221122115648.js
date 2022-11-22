@@ -11,7 +11,8 @@ const reducers = combineReducers({
                 }
             default:
                 return {
-                   state
+                    min: 7,
+                    max: 31
                 }
         }
 

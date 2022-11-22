@@ -1,4 +1,4 @@
-import {createStore,combineReducers} from 'redux'
+import {configureStore,combineReducers} from 'redux'
 
 const reducers = combineReducers({
     numeros: function(state, action){
@@ -11,7 +11,8 @@ const reducers = combineReducers({
                 }
             default:
                 return {
-                   state
+                    min: 7,
+                    max: 31
                 }
         }
 
@@ -29,7 +30,7 @@ const reducers = combineReducers({
 
 
 function storeConfig(){
-    return createStore(reducers)
+    return configureStore(reducers)
 }
 
 export default storeConfig
