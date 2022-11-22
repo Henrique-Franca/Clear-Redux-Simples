@@ -10,7 +10,7 @@ function App() {
       <h1>Exercício React-Redux (simples)</h1>
 
       <div className='linha'>
-        <Intervalo ></Intervalo>
+        <Intervalo title="Card 1" red>1</Intervalo>
       </div>
       <div className='linha'>
         <Card title="Card 2" green>2</Card>
