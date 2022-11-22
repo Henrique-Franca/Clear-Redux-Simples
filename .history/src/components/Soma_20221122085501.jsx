@@ -10,7 +10,7 @@ export default props =>{
             <div >
                 <span>
                     <span>Resultado:</span>
-                    <strong>{10}</strong>
+                    <strong>{}</strong>
                 </span>
 
             </div>
