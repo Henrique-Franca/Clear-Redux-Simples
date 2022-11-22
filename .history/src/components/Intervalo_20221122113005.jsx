@@ -13,9 +13,8 @@ function Intervalo(props){
         <Card title='Intervalo de Números' red>
             <div className="Intervalo">
                 <span>
-                    <strong>Mínino:</strong>
-                    <input type="number" value={min} 
-                        onChange={e => props.alterarMinimo(+e.target.value)} />
+                    <strong>Mínimo:</strong>
+                    <input type="number" value={min} readOnly/>
                 </span>
                 <span>
                     <strong>Máximo:</strong>

@@ -3,7 +3,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 import Card from './Card'
-import {alterarNumeroMinimo} from './store/actions/numeros'
+import {alterarNumeroMinimo} from '../store/actions/numeros'
 
 function Intervalo(props){
 

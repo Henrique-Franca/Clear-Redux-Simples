@@ -19,7 +19,8 @@ function Intervalo(props){
                 </span>
                 <span>
                     <strong>Máximo:</strong>
-                    <input type="number" value={max} readOnly/>
+                    <input type="number" value={max} 
+                    onChange={e => props.alterarMinimo(+e.target.value)}/>
                 </span>
             </div>
             
