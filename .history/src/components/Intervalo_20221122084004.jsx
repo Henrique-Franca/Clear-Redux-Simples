@@ -18,7 +18,7 @@ export default props =>{
                 <span>
                     <strong>Máximo:</strong>
                     <input type="number" value={max} 
-                        onChange={e => props.onMaxChanged(+e.target.value)}/>
+                        onChange={e => props.onMaxchanged(+e.target.value)}/>
                 </span>
             </div>
             

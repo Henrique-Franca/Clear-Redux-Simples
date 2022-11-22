@@ -13,12 +13,12 @@ export default props =>{
                 <span>
                     <strong>Mínimo:</strong>
                     <input type="number" value={min} 
-                        onChange={e => props.onMinChanged(+e.target.value)}/>
+                        onChange={e => props.onMinchanged(+e.target.value)}/>
                 </span>
                 <span>
                     <strong>Máximo:</strong>
                     <input type="number" value={max} 
-                        onChange={e => props.onMaxChanged(+e.target.value)}/>
+                        onChange={e => props.onMaxchanged(+e.target.value)}/>
                 </span>
             </div>
             

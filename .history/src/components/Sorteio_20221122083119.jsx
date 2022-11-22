@@ -7,12 +7,12 @@ export default props =>{
     const { min, max } = props;
 
     return (
-        <Card title='Soma dos Números' blue>
+        <Card title='Sorteio de um Números' purple>
             
             <div >
                 <span>
                     <span>Resultado:</span>
-                    <strong>{max + min}</strong>
+                    <strong>8</strong>
                 </span>
 
             </div>
@@ -22,4 +22,3 @@ export default props =>{
 
 }
 
-         
